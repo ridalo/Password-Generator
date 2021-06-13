@@ -39,27 +39,26 @@
       </div>
     </div>
     <script src="./assets/java.js">
-
             var lowercase = "abcdefghijklmnopqrstuvwxyz"
         var uppercase = "abcdefghijklmnopqrstuvwxyz".toUpperCase()
         var specialCharcters = "%$#()"
         var number = "0123456789"
-​
+
         var randomPickLowerCase = Math.floor(Math.random() * lowercase.length)
         
         var pickOneLowerCaseLetter = lowercase.charAt(randomPickLowerCase)
-​
+
         var randomPickUpperCase = Math.floor(Math.random() * uppercase.length)
         var pickOneUpperCaseLetter = uppercase .charAt(randomPickUpperCase)
-​
+
         var randomPickSpecial = Math.floor(Math.random() * specialCharcters.length)
         var pickOneSpecialCharacterLetter = specialCharcters.charAt(randomPickSpecial)
-​
+
         var randomPickNumber = Math.floor(Math.random() * number.length)
         var pickOneNumber =number.charAt(randomPickNumber)
-​
+
         console.log(pickOneLowerCaseLetter, pickOneUpperCaseLetter, pickOneSpecialCharacterLetter, pickOneNumber)
-        
+
     </script>
   </body>
 </html>
